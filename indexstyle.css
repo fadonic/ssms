@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #000;
+	font-size: 11px;
+	margin-top: 0px;
+}
+
+.header-container {
+	background-image: url(images/headerlogo4.png);
+	background-repeat: no-repeat;
+	height: 230px;
+	width: 760px;
+	box-shadow: #E8E8E8 1px;
+	background-color: #FCFDF8;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: solid;
+	border-top-color: #CC9;
+	border-right-color: #CC9;
+	border-bottom-color: #CC9;
+	border-left-color: #CC9;
+	margin-right: auto;
+	margin-left: auto;
+}
+.body-container {
+	width: 760px;
+	height: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.flashimg {
+	margin-top: 16px;
+	margin-left: 9px;
+}
+
+.body-container_s1 {
+	font-size: 12px;
+	text-align: justify;
+	background-color: #FDFCF8;
+	border: 1px solid #F9F9F9;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	height: 100px;
+	position: relative;
+	background-repeat: no-repeat;
+}
+.footer {
+	background-color: #030303;
+	height: 70px;
+	color: #CCC;
+	line-height: 6.5em;
+	text-align: center;
+	background-image: url(images/footer_bgimg.png);
+	background-repeat: repeat-x;
+}
+.login {
+	height: 60px;
+	padding-bottom: 20px;
+}

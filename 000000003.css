@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+
+INPUT {
+	background-color: #FBF0DA;
+}
+SELECT {
+	background-color: #FBE0FE;
+}
+FIELDSET {
+	WIDTH: 70%;
+}
+LEGEND {
+	
+	
+}
+H2 {
+	font-size:14px
+}
+TABLE{
+	MARGIN-TOP:20PX
+}
+
+

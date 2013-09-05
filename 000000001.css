@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	
+}
+
+
+.header-container {
+	height: 12em;
+	background-image: url(images/mheader.png);
+	background-repeat: no-repeat;
+	border-bottom-width: 5px;
+	border-bottom-style: solid;
+	border-bottom-color: #FBF0DA;
+}
+.body-container {
+	height: 10px;
+	border-bottom-width: thin;
+	border-bottom-color: #CCC;
+}
+.top-nav-wrapper{
+	height: 2.3em;
+	background-image: url(images/top-linl.gif);
+	background-repeat: repeat-x;
+	font-weight: bold;
+	color: #693;
+	border-bottom-width: 1px;
+	border-bottom-color: #698;
+}
+.welcome {
+	float: right;
+	height: 12em;
+	width: 500px;
+}
+.logo {
+	float: right;
+	height: 12em;
+	width: 130px;
+	margin-right: 3em;
+	margin-top: 5px;
+}
+.user {
+	float: left;
+	width: 250px;
+	height: 3em;
+	margin-top: 5em;
+	
+}
+
+
+
+.home {
+	height: 20px;
+	width: 50px;
+	margin-top: 4px;
+	float: left;
+	margin-left: 26px;
+}
+.home a{
+  text-decoration:none;
+  color: #693;
+}
+
+.left-nav-container {
+	float: left;
+	height: 100px;
+	width: 200px;
+}
+.left-nav-ul {
+	display: inline;
+	list-style-type: none
+}
+.left-nav-ul li{
+	display: block;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #FDFDFD;
+	padding-left: 25px;
+	border: 1px solid #F7F7F7;
+	
+}
+.left-nav-ul li a{
+	text-decoration: none;
+	color: #962;
+}
+
+
+.top-nav-container{
+	float: left;
+	height: 20px;
+	width: 600px;
+	margin-top: 3px;
+	margin-left: 9em;
+	color: #693;
+	list-style-type: none;
+}
+.top-nav-ul {
+	list-style-type: none;
+	margin-top: 3px;
+}
+.top-nav-ul li{
+	display: inline;
+	float: left;
+	padding-left: 9px;
+	padding-right: 4px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #CCC;
+}
+.top-nav-ul li a{
+text-decoration:none;
+color: #693;
+}
+.main-container {
+	float: left;
+	width: 800px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.success-msg {
+	background-color: #FBF0DA;
+	height: 40px;
+	width: 1000px;
+	border: 1px solid #930;
+	float: none;
+	line-height: 40px;
+	color: #030;
+	font-weight: bold;
+	padding-left: 10px;
+}
+#error
+{
+    background-color: #FBF0DA; border: 1px solid #930; color: #030;
+    font-weight:bold;
+    text-align: center; margin: 10px; padding: 10px;
+}
+.footer {
+	background-image: url(images/top-linl.gif);
+	background-repeat: repeat-x;
+	height: 30px;
+	margin-top: 30em;
+	border-top-width: 5px;
+	border-right-width: 5px;
+	border-bottom-width: 5px;
+	border-left-width: 5px;
+	border-top-style: solid;
+	border-top-color: #FBF0DA;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+}
